@@ -1,0 +1,75 @@
+
+
+#resetButton {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+
+    padding: 10px;
+
+    background-color: black;
+    color: white;
+    border: black;
+
+    visibility: hidden;
+}
+
+
+#pauseMenu {
+    padding: 20px;
+    width: 200px;
+    background-color: #a8a8ff;
+    border-radius: 5px;
+
+    visibility: visible;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dimensions{
+    margin: 10px;
+    width: 40px;
+}
+
+#buttonRow {
+    display: flex;
+    flex-direction: row;
+}
+#buttonRow > button {
+    margin: 10px;
+}
+
+#info {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#dropButtons {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+}
+
+#mainScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    margin: auto;
+    visibility: hidden;
+}
+
+#canvasDiv {
+    background-color: blue;
+    padding: 30px;
+    border-radius: 10px;
+}
+

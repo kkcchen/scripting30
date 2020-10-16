@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Connect 4</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <button id="resetButton">Reset</button>
+
+    <div id='pauseMenu'>
+      <div>
+        <label for="width">Width:</label>
+        <input type="number" class='dimensions' id="width" min='4' max='10' value='7'>
+      </div>
+      <div>
+        <label for="height">Height:</label>
+        <input type="number" class='dimensions' id="height" min='4' max='7' value="6">
+      </div>
+      
+      <div id='buttonRow'>
+        <button id='cancel' style='display: none'>Cancel</button>
+        <button id='play'>Play Connect 4</button>
+      </div>
+      
+    </div>
+
+    <div id="mainScreen">
+      <p id='info'>Connect 4</p>
+      
+      <div id='canvasDiv'>
+        <div id='dropButtons'></div>
+        <canvas id='gameScreen' width="800" height="600"></canvas>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+
+</html>
